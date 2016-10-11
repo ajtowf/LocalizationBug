@@ -1,2 +1,10 @@
-﻿@inject IViewLocalizer Localizer
-@Localizer["Välkommen"]
+﻿@model string
+@inject IViewLocalizer Localizer
+
+<div>
+    From View: @Localizer["Välkommen"]
+</div>
+
+<div>
+    From Controller: @Model
+</div>

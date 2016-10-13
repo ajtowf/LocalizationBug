@@ -1,5 +1,9 @@
 # LocalizationBug
 
+## Update 2016-10-13
+Works as expected for full dotnet framework when targeting 451, only problem when targeting netcoreapp1.0 
+
+
 Reproduces bug reported here: [https://github.com/aspnet/Localization/issues/293](https://github.com/aspnet/Localization/issues/293)
 
 From what I can tell it's not possible to get the app _NOT_ to translate to english, for instance the query param isn't respected, but neither is a custom resource provider or what so ever:

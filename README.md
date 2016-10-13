@@ -1,8 +1,7 @@
-# LocalizationBug
-
 ## Update 2016-10-13
-Works as expected for full dotnet framework when targeting 451, only problem when targeting netcoreapp1.0 
+Works as expected when targeting full .NET >= 4.5, only problem when targeting netcoreapp1.0.
 
+# LocalizationBug
 
 Reproduces bug reported here: [https://github.com/aspnet/Localization/issues/293](https://github.com/aspnet/Localization/issues/293)
 
